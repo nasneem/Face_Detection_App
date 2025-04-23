@@ -3,15 +3,12 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import 'tachyons'
-import ParticlesBg from 'particles-bg'
 
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode> 
-  
     <App />
-    <ParticlesBg type="polygon" bg={true} />  
   </StrictMode>,
 )
